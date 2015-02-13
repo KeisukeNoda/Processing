@@ -3,7 +3,7 @@ int DISPLAY_W   = 1280;
 int DISPLAY_H   = 720;
 
 void setup(){
-  size(DISPLAY_W, DISPLAY_H );
+  size(DISPLAY_W, DISPLAY_H);
   snows = new Snow[100];
   for(int i = 0; i < snows.length; i++){
     snows[i] = new Snow();
